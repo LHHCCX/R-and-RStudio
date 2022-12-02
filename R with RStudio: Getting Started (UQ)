@@ -1,0 +1,77 @@
+## --- R with RStudio: Getting Started (UQ) ---
+## --- Link: https://www.youtube.com/watch?v=BICccwBynJc ---
+
+赋值 < - 
+# 快捷键：option —】赋值可改，但其他数值不会随之一起更改
+
+function name (argument1, argument2, ...) 
+# 所有函数的格式 
+
+round (x, digits) 
+# 取整数
+
+?round 
+# 可查看round函数的相关解释
+
+NA
+# not avaliable
+
+c()
+# 这是一个组合其参数的通用函数
+
+ages < - c()
+# 赋予ages 一个组合的数
+
+barplot()
+# 柱状图
+
+rep.int() mean() rm()
+rep.int()
+# rep重复
+mean()
+# 平均数
+mean(ages, na.rm = TRUE)
+# 如果数据中有NA，那么先去除NA再运行
+rm()
+# remove去除数据
+
+右上角的框框中的History，找到已经被去除，但现在需要找回的数据，再double点击该数据
+# 找回去除的数据
+
+dev.off()
+# 关闭graph
+
+ls()
+# 列出暂时所有的object
+
+rm(list = ls())
+# 去除掉所有的object
+
+右下角的框框中的Help，查找中输入analysis of variance
+# 方差分析
+
+dir.create("")
+# 创建目录 create directories
+
+download.file(url = “”）
+destfile =
+# 下载网页
+# 存放在哪 where we want to save
+
+Ctrl + Enter: execute from script
+# 执行任务
+
+View()
+# 查看文件
+
+CRAN 
+# comprehensive archive network
+
+ctrl + L
+# 清屏
+
+
+## --- VS code ---
+
+command k + m
+# 切换语言种类
