@@ -1,8 +1,9 @@
 ## --- R with RStudio: Getting Started (UQ) ---
 ## --- Link: https://www.youtube.com/watch?v=BICccwBynJc ---
 
-赋值 < - 
-# 快捷键：option —】赋值可改，但其他数值不会随之一起更改
+< - 
+# 赋值 快捷键：option 
+# 赋值可改，但其他数值不会随之一起更改
 
 function name (argument1, argument2, ...) 
 # 所有函数的格式 
@@ -35,7 +36,7 @@ mean(ages, na.rm = TRUE)
 rm()
 # remove去除数据
 
-右上角的框框中的History，找到已经被去除，但现在需要找回的数据，再double点击该数据
+# 右上角的框框中的History，找到已经被去除，但现在需要找回的数据，再double点击该数据
 # 找回去除的数据
 
 dev.off()
@@ -47,7 +48,7 @@ ls()
 rm(list = ls())
 # 去除掉所有的object
 
-右下角的框框中的Help，查找中输入analysis of variance
+# 右下角的框框中的Help，查找中输入analysis of variance
 # 方差分析
 
 dir.create("")
@@ -64,8 +65,26 @@ Ctrl + Enter: execute from script
 View()
 # 查看文件
 
+plot(gapminder$gdpPercap, gapminder$lifeExp,
+     xlab = "GDP per capita (USD)",
+     ylab = "Life expectancy (yars)")
+# plot a realtionship: gdp per cpita vs life expectancy
+
 CRAN 
 # comprehensive archive network
+
+## packages
+# 0. install the package (only needed once)
+# 1. load the package
+library(praise)
+# 2. use the functions from the package
+praise()
+# other example: skimr package
+library(skimr)
+skim(gapminder) # alternative to summary()
+
+library()
+# 想运行package，先激活package才能使用
 
 ctrl + L
 # 清屏
