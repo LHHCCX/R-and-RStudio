@@ -1,2 +1,13 @@
 ## --- R data manipulation with RStudio and dplyr ---
 ## --- Link: https://www.youtube.com/watch?v=vqvsyaaqJUk&t=1s ---
+
+# Goals
+# 0. how to use dplyr package
+# 1. How to use following six function
+select(): pick variables
+filter(): pick observations
+arrange(): reorder observations
+mutate(): create new variables
+summarise(): collapse to a single summary
+group_by(): change the scope of function
+
